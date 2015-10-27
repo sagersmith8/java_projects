@@ -1,0 +1,28 @@
+﻿/* hides unwanted divs */
+
+#header, #navbar {
+  display: none;
+}
+
+/* print designed for accessibility */
+
+body {
+  color: black;
+  background-color: white;
+  background-image: none;
+  font-size: 12pt;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 120%;
+}
+
+/* changes link colors to default */
+
+a {
+  text-decoration: underline;
+  color: blue;
+}
+
+img {
+  display: none;
+}
+

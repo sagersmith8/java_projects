@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 3
+
+   Grillrite Parts List schema
+   Author: James Castillo
+   Date:   3/1/2008
+
+   Filename:         parts.xsd
+   Supporting Files: types.xsd
+ 
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:lib="http://grillrite.com/datatypes"
+           xmlns="http://grillrite.com/parts"
+           targetNamespace="http://grillrite.com/parts">
+
+   <xs:import namespace="http://grillrite.com/datatypes" 
+              schemaLocation="types.xsd" />
+
+
+   <xs:element name="grillParts">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="part" minOccurs="1" maxOccurs="unbounded">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element name="partName" type="xs:string" />
+                     <xs:element name="cost" type="lib:priceType" />
+                     <xs:element name="inStock" type="xs:nonNegativeInteger" />
+                  </xs:sequence>
+                  <xs:attribute name="partID" type="lib:itemID" />
+                  <xs:attribute name="usedIn" type="lib:itemIDREFS" />
+               </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+</xs:schema>

@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Two-Column Fixed Layout</title>
+
+<!--
+Tutorial 6
+Your Name: Sage Smith
+Today's Date: 5/20/13
+Filename: fixednew.htm
+-->
+
+<style type="text/css">
+* {
+padding: 0;
+margin: 0;
+}
+
+body{
+font-size: 1.1em;
+font-family: Arial, Helvetica, sans-serif;
+background-color:purple;
+}
+
+#container{
+width:930px;
+border-width: 1px;
+margin: 0 auto;
+background-color: navy;
+}
+
+#header{
+width:910px;
+margin: 0 0 10px 0;
+padding: 10px;
+background-color: yellow;
+height: 75px;
+}
+
+#navbar{
+width:910px;
+margin: 0 0 10px 0;
+padding: 10px;
+background-color: silver;
+height: 25px;
+}
+#sidebar{
+width:200px;
+margin: 0 10px 10px 0;
+padding: 10px;
+background-color: orange;
+float:left;
+height: 400px;
+}
+
+#main{
+width:680px;
+margin: 0 0 10px 0;
+padding: 10px;
+background-color: aqua;
+float:right;
+height: 400px;
+}
+
+#footer{
+width:910px;
+padding: 10px;
+background-color: lime;
+clear: both;
+height: 75px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id= "container">
+<div id="header">
+<p>this is the header</p>
+</div><!-- header ends here-->
+
+<div id = "navbar">
+<p>this is the navbar</p>
+</div>
+
+<div id = "sidebar">
+<p>this is the sidebar</p>
+</div>
+
+<div id = "main">
+<p>this is the main</p>
+</div>
+
+<div id = "footer">
+<p>this is the footer</p>
+</div>
+
+
+</div> <!-- container ends here-->
+
+
+</body>
+</html>

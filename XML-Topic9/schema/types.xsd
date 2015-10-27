@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   New Perspectives on XML
+   Tutorial 4
+   Case Problem 3
+
+   Grillrite Data Types Library
+   Author: James Castillo
+   Date:   3/1/2008
+
+   Filename:         types.xsd
+   Supporting Files: 
+ 
+ 
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://grillrite.com/datatypes"
+           targetNamespace="http://grillrite.com/datatypes">
+
+   <xs:simpleType name="itemID">
+      <xs:restriction base="xs:string">
+         <xs:pattern value="[a-z]{3}\d{3}" />
+      </xs:restriction>
+   </xs:simpleType>
+
+   <xs:simpleType name="itemIDREF">
+      <xs:restriction base="xs:string">
+         <xs:pattern value="[a-z]{3}\d{3}" />
+      </xs:restriction>
+   </xs:simpleType>
+
+   <xs:simpleType name="itemIDREFS">
+      <xs:list itemType="itemIDREF" />
+   </xs:simpleType>
+
+   <xs:simpleType name="priceType">
+      <xs:restriction base="xs:string">
+         <xs:pattern value="\$\d+(\.\d{2})?" />
+      </xs:restriction>
+   </xs:simpleType>
+
+</xs:schema>

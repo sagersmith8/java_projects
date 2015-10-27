@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Two-Column Liquid Layout</title>
+
+<!--
+Tutorial 7
+Your Name:
+Today's Date:
+Filename: liquidnew.htm
+-->
+
+<style type="text/css">
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1.1em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ece1ef;
+}
+
+
+#header{
+padding: 0.5%;
+margin-bottom: 0.5%;
+background-color: #d7d556;
+}
+
+#sidebar{
+width: 25%;
+padding: 0.5%;
+background-color: orange;
+float: right;
+}
+
+#main{
+margin-right: 27%;
+padding: 0.5%;
+background-color: aqua;
+}
+
+#navbar ul li{
+margin-right: 1em;
+background: url(button.gif) no-repeat center center;
+display: inline;
+list-style-type: none;
+}
+
+#navbar li a{
+paddig: 1em;
+color: white;
+text-decoration: none;
+}
+
+#navbar li a:hover{
+color: yellow;
+text-decoration: underline;
+}
+
+#footer{
+margin: 0.5% 27% 0 0;
+border-top: solid thick teal;
+padding: 0.5%;
+background-color: lime;
+clear: both;
+}
+
+#topic{
+margin-top: 1%;
+border: solid 1px black;
+padding: 0.5% 0.5% 0.5% 7.5%;
+color: yellow;
+background: url(sunflower.gif) 1% 50% no-repeat navy;
+}
+
+#topic2{
+margin-bottom: 1%;
+border: solid 1px black;
+padding: 0.5% 7.5% 0.5% 0.5%;
+color: maroon;
+background: url(oarnation.gif) 99% 50% no-repeat #eb9ebc;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="header">
+<p>This is the Header</p>
+</div> <!-- end header -->
+
+<div id="navbar">
+<ul>
+<li><a href="#">first link text</a></li>
+<li><a href="#">second link text</a></li>
+<li><a href="#">third link text</a></li>
+</ul>
+</div> <!--end navbar-->
+
+<div id="sidebar">
+<p>This is the Sidebar Column. This is the Sidebar Column. This is the Sidebar Column.</p>
+</div> <!-- end sidebar -->
+
+<div id="main">
+<p>This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column. This is the Main Column.</p>
+
+<div id="topic">
+<p>This is the sunflower topic text. This is the sunflower topic text. This is the sunflower topic text. This is the sunflower topic text. This is the sunflower topic text. This is the sunflower topic text. This is the sunflower topic text. This is the sunflower topic text. This is the sunflower topic text. This is the sunflower topic text. This is the sunflower topic text. This is the sunflower topic text. This is the sunflower topic text.</p>
+</div> <!-- end topic -->
+
+<div id="topic2">
+<p>This is the carnation topic text. This is the carnation topic text. This is the carnation topic text. This is the carnation topic text. This is the carnation topic text. This is the carnation topic text. This is the carnation topic text. This is the carnation topic text. This is the carnation topic text. This is the carnation topic text. This is the carnation topic text. This is the carnation topic text. This is the carnation topic text.</p>
+</div> <!-- end topic2 -->
+
+</div> <!-- end main -->
+
+<div id="footer">
+<p>This is the Footer</p>
+</div> <!-- end footer -->
+
+</body>
+</html>

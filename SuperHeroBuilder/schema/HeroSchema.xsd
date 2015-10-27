@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Author: Sage Smith
+   Date: 12/8/2013
+   Filename: HeroSchema.xsd 
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+		   targetNamespace="http://www.example.org/HeroSchema" 
+		   xmlns:tns="http://www.example.org/HeroSchema" elementFormDefault="qualified">
+	 <xs:element name="hero">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="general" minOccurs="1" maxOccurs="1">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element name="heroName" type="xs:string" />
+                     <xs:element name="male" type="xs:boolean" />
+                     <xs:element name="nemisis" type="xs:string" />
+                     <xs:element name="power" type="xs:string" />
+                     <xs:element name="weakness" type="xs:string" />
+                     <xs:element name="sidekick" type="xs:boolean"/>
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+            <xs:element name="secretIdentity" minOccurs="1" maxOccurs="1">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element name="name" type="xs:string" />
+                     <xs:element name="birthdate" type="xs:string" />
+                     <xs:element name="origin" type="xs:string" />
+                     <xs:element name="job" type="xs:string" />
+                     <xs:element name="lair" type="xs:string" />
+                     <xs:element name="secretKeeper" type="xs:string"/>
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+            <xs:element name="costume" minOccurs="1" maxOccurs="1">
+               <xs:complexType>
+                  <xs:sequence>
+                  	 <xs:element name = "file" type = "xs:int"/>             
+                  	 <xs:element name="hair" type="xs:int" />
+                     <xs:element name="logo" type="xs:int" />
+                     <xs:element name="boot" type="xs:int" />
+                     <xs:element name="skin" type="xs:int" />
+                     <xs:element name="costume" type="xs:int" />
+                     <xs:element name="glove" type="xs:int"/>
+                     <xs:element name="cape" type="xs:int" />
+                     <xs:element name="underwear" type="xs:int" />
+                     <xs:element name="belt" type="xs:int"/>
+                  </xs:sequence>
+               </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

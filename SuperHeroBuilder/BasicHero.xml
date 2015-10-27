@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Author: Sage Smith
+   Date: 12/8/2013
+   Filename: BasicHero.xml 
+-->
+
+<hero:hero xmlns:hero="http://www.example.org/HeroSchema">
+    <hero:general>
+        <hero:heroName>Sager</hero:heroName>
+        <hero:male>true</hero:male>
+        <hero:nemisis>Tyzer Smith</hero:nemisis>
+        <hero:power>Flight</hero:power>
+        <hero:weakness>Ground</hero:weakness>
+        <hero:sidekick>false</hero:sidekick>
+    </hero:general>
+    <hero:secretIdentity>
+         <hero:name>Sage Smith</hero:name>
+        <hero:birthdate>07/20/95</hero:birthdate>
+        <hero:origin>Earth</hero:origin>
+        <hero:job>Computer Programming</hero:job>
+        <hero:lair>Smith House</hero:lair>
+        <hero:secretKeeper>Kyler Smith</hero:secretKeeper>
+    </hero:secretIdentity>
+	<hero:costume>
+	    <hero:file>sage</hero:file>
+	    <hero:hair>86ffdf</hero:hair>
+	    <hero:logo>86ffdf</hero:logo>
+	    <hero:boot>86ffdf</hero:boot>
+	    <hero:skin>86ffdf</hero:skin>
+	    <hero:costume>86ffdf</hero:costume>
+	    <hero:glove>86ffdf</hero:glove>
+	    <hero:cape>86ffdf</hero:cape>
+	    <hero:underwear>86ffdf</hero:underwear>
+	    <hero:belt>86ffdf</hero:belt>
+	</hero:costume>
+</hero:hero>
+

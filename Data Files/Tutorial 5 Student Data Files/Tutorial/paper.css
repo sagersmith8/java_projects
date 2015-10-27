@@ -1,0 +1,84 @@
+/* Block comments are the bomb diggity*/
+
+body{
+font-size: 1.1em;
+font-family: Verdana, sans-serif;
+color: white;
+background-color: #6d6f58;
+}
+
+h1{
+background-color: black;
+padding: 4px;
+margin: 0 0 0 10px;
+text-align; center;
+}
+
+h2{
+backgroud-color: gray;
+padding: 4px;
+margin: 10px 0 0 10px;
+text-align: center;
+}
+
+h3{
+border-bottom: solid thick orange;
+padding-bottom: 0.5em;
+}
+
+img{
+float:left;
+margin: 0 10px 10px 0;
+}
+
+img.right{
+float: right;
+margin: 10px 0 10px 10px;
+border: double thick black:
+}
+
+.clear{
+clear:both;
+}
+
+ol{
+line-height: 1.4;
+list-style-type: none;
+padding: 0;
+margin-left: 1em;
+}
+
+ol li{
+background: url(arrow.gif) black 0.3em no-repeat;
+padding-left: 30px;
+}
+
+a:link{
+color:orange;
+}
+
+a:hover{
+color:blue;
+backgound-color: yellow;
+}
+
+a:visited{
+color: maroon;
+}
+
+h4{
+background-image: url(list.gif);
+background-color:yellow;
+display:inline;
+padding:4px;
+color:black;
+}
+
+h5{
+background-image:url(list.gif);
+background-color: yellow;
+color: black;
+padding: 4px;
+text-align:center;
+font-size:1.1em;
+}

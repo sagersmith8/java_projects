@@ -1,0 +1,24 @@
+#navbar {
+  background-color: black;
+  text-align: center;
+  padding: 0.25em;
+}
+
+#navbar ul li {
+  display: inline;
+  list-style-type: none;
+  margin: 0.5em;
+  text-transform: uppercase;
+}
+
+#navbar ul li a {
+  color: white;
+  background-color: black;
+
+  font-weight: bold;
+}
+
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}

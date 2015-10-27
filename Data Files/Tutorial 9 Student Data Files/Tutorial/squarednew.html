@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Fashion Squared</title>
+
+<link rel="stylesheet" href="squarednewstyles.css" type="text/css" />
+
+<!--
+Tutorial 9
+Your Name:
+Today's Date:
+Filename: squarednew.htm
+-->
+
+<style type="text/css">
+
+form{
+margin-top:1em;
+border:solid 2px navy;
+padding: 1em;
+font-size: 16px;
+}
+
+form div{
+margin: 0;
+padding: 0.5em 0 0 0;
+clear: both;
+}
+
+label{
+width: 120px;
+margin-right: 15px;
+color: black;
+float: left;
+text-align: right;
+}
+
+input.text{
+background-color: #f1e8c8;
+}
+
+legend{
+color:navy;
+padding: 0 10px;
+}
+
+select{
+color: navy;
+}
+
+textarea{
+border: solid 2px navy;
+}
+
+label.left{
+text-align: left;
+color: navy;
+}
+
+input.button{
+color: navy;
+text-transform: uppercase;
+fort-weight: bold;
+padding: 4px;
+}
+
+fieldset{
+margin-bottom: 1em;
+border: solid 2px black;
+backgroud-color: #e9edda;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header">
+<p><img src="squaredlogo.gif" alt="Fashion Squared logo" width="900" height="150" /></p>
+</div> <!-- end header -->
+
+<div id="navbar">
+<ul>
+  <li><a href="#">Store Finder</a></li>
+  <li><a href="#">Specials</a></li>
+  <li><a href="#">Mailing List</a></li>
+  <li><a href="#">Club Memberships</a></li>
+  <li><a href="#">Corporate Accounts</a></li>
+  <li><a href="#">Contact Us</a></li>
+</ul>
+</div> <!-- end navbar -->
+
+<div id="left">
+
+<h3>Men</h3>
+<p><strong>Fashion Squared<sup>2</sup></strong> has the best fashion for men. If you are a career-minded gentleman, you owe it to yourself and your career to shop with us. You don't have to be well-heeled; you just have to be practical enough to know a good value when you see one. If you are just starting your career, you want to make the right first impression. Our sales associates will help you pick out just the right business attire that will get you on the fast track. We've got great values on the following:</p>
+
+<ul class="list">
+  <li>Suits</li>
+  <li>Shirts</li>
+  <li>Ties</li>
+  <li>Jackets</li>
+  <li>Dress Shoes</li>
+</ul>
+
+<h3>Women</h3>
+<p>You know that having a great wardrobe is the key to success in any corporation. If you don't look the part and dress the part, you are not getting hired. People judge you by what you say and what you do, but they also judge you on your wardrobe. If you don't look professional, your ideas are not going to carry as much weight as they would if you looked like you meant business right from the start. Come to our stores and check out our great selection on the following:</p>
+
+<ul class="list">
+  <li>Skirted Suits</li>
+  <li>Blouses</li>
+  <li>Dresses</li>
+  <li>Pantsuits</li>
+  <li>Dress Shoes</li>
+</ul>
+
+</div> <!-- end left -->
+
+<div id="right">
+
+<h3>Please Join Our Mailing List</h3>
+
+<!-- enter the form code below -->
+
+<form id = "mailing" action="">
+
+<div>
+
+<fieldset><legend>Mailing Address</legend>
+
+<label for= "firstname">First Name</label>
+<input type="text" name ="firstname" id="firstname" class="text" /><br />
+
+<label for= "lastname">Last Name</label>
+<input type="text" name ="lastname" id="lastname" class="text" /><br />
+
+<label for= "address">Address</label>
+<input type="text" name ="address" id="address" class="text" /><br />
+
+<label for= "city">City</label>
+<input type="text" name ="city" id="city" class="text" /><br />
+
+<label for= "state">State</label>
+<input type="text" name ="state" id="state" class="text" /><br />
+
+<label for= "zip">Zip Code</label>
+<input type="text" name ="zip" id="zip" class="text" /><br />
+
+
+</fieldset>
+</div> <!-- end text boxes -->
+
+<div>
+<fieldset id="gender"><legend>Gender</legend>
+
+<label for="male">Male</label>
+<input type = "radio" name ="gender" id="male" /><br />
+
+<label for= "female">Femal</label>
+<input type="radio" name="gender" id="female" value="female"/><br/>
+
+</fieldset>
+
+</div><!-- end radio buttons -->
+
+<div>
+
+<fieldset><legend>Special Catalogs Rquested (check all that apply)
+</legend>
+
+<label for = "sportswear">Sportswear</label>
+<input type="checkbox" name="sales" id="sportswear" value="sportswear"
+checked = "checked" /><br />
+
+<label for = "swimwear">Swimwear</label>
+<input type="checkbox" name="sales" id="swimwear" value="swimwear"
+checked = "checked" /><br />
+
+<label for = "hiking">Hiking</label>
+<input type="checkbox" name="sales" id="hiking" value="hiking"
+checked = "checked" /><br />
+
+<label for = "formal">Formal Attire</label>
+<input type="checkbox" name="sales" id="formal" value="formal"
+checked = "checked" /><br />
+
+<label for = "acessories">Accessories</label>
+<input type="checkbox" name="sales" id="accessories" value="accessories"
+checked = "checked" /><br />
+
+</fieldset>
+
+</div> <!-- end check boxes -->
+
+<div>
+
+<label for="county" class="left">County</label><br />
+<select name="county" id="county">
+<option value = "Dershemer">Dershemer</option>
+<option value = "Hastings">Hastings</option>
+<option value = "Lester" selected ="selected">Lester</option>
+<option value = "Morris">Morris</option>
+<option value = "Warren">Warren</option>
+<option value = "none">none from this list</option>
+</select>
+
+</div> <!-- end selection list -->
+
+<div>
+
+<label for = "comments" class="left">Comments</label>
+<textarea name="comments" id="comments" rows="10" cols = "60"></textarea>
+
+</div> <!-- end text area -->
+
+<div>
+<input type="submit" value="Send Information" class="button"/>
+<input type="rest" value="Cancel" class="button"/>
+
+</div><!-- end command buttons -->
+
+</form>
+
+</div> <!-- end right column -->
+
+<div id="footer">
+<p>Fashion Squared<sup>2</sup> &#9986; 86 Tanner Street &#9986; New Orleans, LA 48900</p>
+<p><a href="#">Store Finder</a> &#9986; <a href="#">Specials</a> &#9986; <a href="#">Mailing List</a> &#9986; <a href="#">Club Memberships</a> &#9986; <a href="#">Corporate Accounts</a> &#9986; <a href="#">Contact Us</a></p>
+</div> <!-- end footer -->
+
+</div> <!-- end container -->
+
+</body>
+</html>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mov:movieList xmls:mov = "http:\\www.loneMoviesWithCast.com\namespace\movielist"
+    		xmls:act = "http:\\www.loneMoviesWithCastGetCastInfo.com\namespace\movielist">
+    <mov:movie imdb_id = "tt1210819">
+        <mov:title>The Lone Ranger</mov:title> 
+        <mov:year>2013</mov:year> 
+        <mov:rating>6.7/</mov:rating>
+        <mov:rating_count>30207</mov:rating_count>
+        <act:cast>
+        	<act:actor name_id="nm0000136">
+        		<act:firstName>Johnny</act:firstName>
+        		<act:lastName>Depp</act:lastName>
+        		<act:dob>1963-06-09</act:dob>
+        	</act:actor>
+        	<act:actor name_id="nm2309517">
+        		<act:firstName>Armie</act:firstName>
+        		<act:lastName>Hammer</act:lastName>
+        		<act:dob>1986-08-28</act:dob>
+        	</act:actor>        
+        </act:cast>
+    </mov:movie>
+    
+    <mov:movie imdb_id = "tt0116905">
+    	<mov:title>Lone Star</mov:title>
+    	<mov:year>1996</mov:year>
+    	<mov:rating>7.5</mov:rating>
+    	<mov:rating_count>17848</mov:rating_count>
+    	<act:cast>
+        	<act:actor name_id="nm0177933">
+        		<act:firstName>Chris</act:firstName>
+        		<act:lastName>Cooper</act:lastName>
+        		<act:dob>1951-07-09</act:dob>
+        	</act:actor>
+        	<act:actor name_id="nm0579116">
+        		<act:firstName>Stephen</act:firstName>
+        		<act:lastName>Mendillo</act:lastName>
+        		<act:dob>1942-10-09</act:dob>
+        	</act:actor>        
+        </act:cast>
+    </mov:movie>
+    
+    <mov:movie imdb_id = "tt0085862">
+        <mov:title>Lone Wolf McQuade</mov:title>
+        <mov:year>1983</mov:year>
+        <mov:rating>6</mov:rating>
+        <mov:rating_count>5500</mov:rating_count>
+       <act:cast>
+        	<act:actor name_id="nm0001569">
+        		<act:firstName>Chuck</act:firstName>
+        		<act:lastName>Norris</act:lastName>
+        		<act:dob>1940-04-10</act:dob>
+        	</act:actor>
+        	<act:actor name_id="nm0001016">
+        		<act:firstName>David</act:firstName>
+        		<act:lastName>Carradine</act:lastName>
+        		<act:dob>1936-12-08</act:dob>
+        	</act:actor>        
+        </act:cast>
+    </mov:movie>
+    
+    <mov:movie imdb_id = "tt0269483">
+        <mov:title>Lone Star State of Mind</mov:title>
+        <mov:year>2002</mov:year>
+        <mov:rating>5.7</mov:rating>
+        <mov:rating_count>2036</mov:rating_count>
+    </mov:movie>
+    
+    <mov:movie imdb_id = "tt0243069">
+        <mov:title>The Lone Gunmen</mov:title>
+        <mov:year>2001</mov:year>
+        <mov:rating>7.3</mov:rating>
+        <mov:rating_count>2649</mov:rating_count>
+    </mov:movie>
+    
+    <mov:movie imdb_id = "tt0041038">
+        <mov:title>The Lone Ranger</mov:title>
+        <mov:year>1949</mov:year>
+        <mov:rating>7.8</mov:rating>
+        <mov:rating_count>659</mov:rating_count>
+    </mov:movie>
+    
+    <mov:movie imdb_id = "tt0082648">
+        <mov:title>The Legend of the Lone Ranger</mov:title>
+        <mov:year>1981</mov:year>
+        <mov:rating>4.5</mov:rating>
+        <mov:rating_count>1080</mov:rating_count>
+    </mov:movie>
+    
+    <mov:movie imdb_id = "tt0804551">
+        <mov:title>Walking Tall: Lone Justice</mov:title>
+        <mov:year>2007</mov:year>
+        <mov:rating>4.8</mov:rating>
+        <mov:rating_count>767</mov:rating_count>
+    </mov:movie>
+    
+    <mov:movie imdb_id = "tt0048310">
+        <mov:title>The Lone Ranger</mov:title>
+        <mov:year>2007</mov:year>
+        <mov:rating>6.8</mov:rating>
+        <mov:rating_count>435</mov:rating_count>
+    </mov:movie>
+    
+</mov:movieList>

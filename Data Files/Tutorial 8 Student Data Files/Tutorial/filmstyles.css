@@ -1,0 +1,98 @@
+/*
+Tutorial 8
+Your Name:
+Today's Date:
+Filename: filmstylesnew.css
+*/
+
+#container {
+  width: 900px;
+  margin: 0 auto;
+  border-width: 1px;
+}
+
+body {
+  background-color: #d3b332;
+  font-family: Verdana, sans-serif;
+}
+
+#content {
+  padding: 10px;
+  color: white;
+  background-color: #6d6d50;
+}
+
+#footer {
+  margin: 10px 0;
+  border-top: solid thin black;
+  border-bottom: solid thick black;
+  padding: 5px;
+  text-align: center;
+}
+
+a:link {
+  padding: 5px;
+  color: white;
+  background-color: teal;
+  font-weight: bold;
+}
+
+a:hover {
+  padding: 5px;
+  color: teal;
+  background-color: white;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 0;
+  color: white;
+  background-color: teal;
+  text-align: center;
+}
+
+.center {
+  font-style: italic;
+  text-align: center;
+}
+
+/* enter the code for table styles below */
+
+table{
+width: 100%;
+margin: 10px auto;
+border: solid 3px black;
+border-collapse: collapse;
+background-color: #e9dfc6;
+}
+
+caption{
+padding: 4px;
+color: white;
+background-color: maroon;
+font-style: italic;
+font-size: 1.2em;
+}
+
+td{
+padding: 6px;
+border: solid 1px black;
+}
+
+tr.stripe{
+background-color: orange;
+}
+
+tr:hover{
+color: white;
+background-color: black;
+}
+
+tr.stripe :hover {
+color: white;
+background-color: black;
+}
+
+.film{
+background-color: #efebb1;
+}

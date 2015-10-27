@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Battlecode 2015</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>bin</name>
+			<type>2</type>
+			<location>C:/Users/Sage/Documents/Battlecode2015/bin</location>
+		</link>
+		<link>
+			<name>build.xml</name>
+			<type>1</type>
+			<location>C:/Users/Sage/Documents/Battlecode2015/build.xml</location>
+		</link>
+		<link>
+			<name>examplefuncsplayer</name>
+			<type>2</type>
+			<location>C:/Users/Sage/Documents/Battlecode2015/bin/examplefuncsplayer</location>
+		</link>
+		<link>
+			<name>lib</name>
+			<type>2</type>
+			<location>C:/Users/Sage/Documents/Battlecode2015/lib</location>
+		</link>
+		<link>
+			<name>sage</name>
+			<type>2</type>
+			<location>C:/Users/Sage/Documents/Battlecode2015/bin/sage</location>
+		</link>
+		<link>
+			<name>team348</name>
+			<type>2</type>
+			<location>C:/Users/Sage/Documents/Battlecode2015/bin/team348</location>
+		</link>
+		<link>
+			<name>teams</name>
+			<type>2</type>
+			<location>C:/Users/Sage/Documents/Battlecode2015/teams</location>
+		</link>
+	</linkedResources>
+</projectDescription>

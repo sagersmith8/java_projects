@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movieList SYSTEM "movieList.dtd">
+<movieList>
+    <movie imdb_id = "tt1210819">
+        <title>The Lone Ranger</title> 
+        <year>2013</year> 
+       <rating>6.7/</rating>
+        <rating_count>30207</rating_count>
+    </movie>
+    
+    <movie imdb_id = "tt0116905">
+    	<title>Lone Star</title>
+    	<year>1996</year>
+    	<rating>7.5</rating>
+    	<rating_count>17848</rating_count>
+    </movie>
+    
+    <movie imdb_id = "tt0085862">
+        <title>Lone Wolf McQuade</title>
+        <year>1983</year>
+        <rating>6</rating>
+        <rating_count>5500</rating_count>
+    </movie>
+    
+    <movie imdb_id = "tt0269483">
+        <title>Lone Star State of Mind</title>
+        <year>2002</year>
+        <rating>5.7</rating>
+        <rating_count>2036</rating_count>
+    </movie>
+    
+    <movie imdb_id = "tt0243069">
+        <title>The Lone Gunmen</title>
+        <year>2001</year>
+        <rating>7.3</rating>
+        <rating_count>2649</rating_count>
+    </movie>
+    
+    <movie imdb_id = "tt0041038">
+        <title>The Lone Ranger</title>
+        <year>1949</year>
+        <rating>7.8</rating>
+        <rating_count>659</rating_count>
+    </movie>
+    
+    <movie imdb_id = "tt0082648">
+        <title>The Legend of the Lone Ranger</title>
+        <year>1981</year>
+        <rating>4.5</rating>
+        <rating_count>1080</rating_count>
+    </movie>
+    
+    <movie imdb_id = "tt0804551">
+        <title>Walking Tall: Lone Justice</title>
+        <year>2007</year>
+        <rating>4.8</rating>
+        <rating_count>767</rating_count>
+    </movie>
+    
+    <movie imdb_id = "tt0048310">
+        <title>The Lone Ranger</title>
+        <year>2007</year>
+        <rating>6.8</rating>
+        <rating_count>435</rating_count>
+    </movie>
+    
+</movieList>

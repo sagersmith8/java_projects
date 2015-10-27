@@ -1,0 +1,7 @@
+<!ELEMENT movieList (movie*)>
+<!ELEMENT movie (title,year,rating,rating_count)>
+<!ELEMENT title (#pcdata)>
+<!ELEMENT year (#pcdata)>
+<!ELEMENT rating (#pcdata)>
+<!ELEMENT rating_count (#pcdata)>
+<!ATTLIST movie imdb_id ID #REQUIRED>

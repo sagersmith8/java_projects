@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Fashion Squared</title>
+
+<link rel="stylesheet" href="squarednewstyles.css" type="text/css" />
+
+<!--
+Tutorial 9
+Your Name:
+Today's Date:
+Filename: squarednew.htm
+-->
+
+<style type="text/css">
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header">
+<p><img src="squaredlogo.gif" alt="Fashion Squared logo" width="900" height="150" /></p>
+</div> <!-- end header -->
+
+<div id="navbar">
+<ul>
+  <li><a href="#">Store Finder</a></li>
+  <li><a href="#">Specials</a></li>
+  <li><a href="#">Mailing List</a></li>
+  <li><a href="#">Club Memberships</a></li>
+  <li><a href="#">Corporate Accounts</a></li>
+  <li><a href="#">Contact Us</a></li>
+</ul>
+</div> <!-- end navbar -->
+
+<div id="left">
+
+<h3>Men</h3>
+<p><strong>Fashion Squared<sup>2</sup></strong> has the best fashion for men. If you are a career-minded gentleman, you owe it to yourself and your career to shop with us. You don't have to be well-heeled; you just have to be practical enough to know a good value when you see one. If you are just starting your career, you want to make the right first impression. Our sales associates will help you pick out just the right business attire that will get you on the fast track. We've got great values on the following:</p>
+
+<ul class="list">
+  <li>Suits</li>
+  <li>Shirts</li>
+  <li>Ties</li>
+  <li>Jackets</li>
+  <li>Dress Shoes</li>
+</ul>
+
+<h3>Women</h3>
+<p>You know that having a great wardrobe is the key to success in any corporation. If you don't look the part and dress the part, you are not getting hired. People judge you by what you say and what you do, but they also judge you on your wardrobe. If you don't look professional, your ideas are not going to carry as much weight as they would if you looked like you meant business right from the start. Come to our stores and check out our great selection on the following:</p>
+
+<ul class="list">
+  <li>Skirted Suits</li>
+  <li>Blouses</li>
+  <li>Dresses</li>
+  <li>Pantsuits</li>
+  <li>Dress Shoes</li>
+</ul>
+
+</div> <!-- end left -->
+
+<div id="right">
+
+<h3>Please Join Our Mailing List</h3>
+
+<!-- enter the form code below -->
+
+
+
+</div> <!-- end right column -->
+
+<div id="footer">
+<p>Fashion Squared<sup>2</sup> &#9986; 86 Tanner Street &#9986; New Orleans, LA 48900</p>
+<p><a href="#">Store Finder</a> &#9986; <a href="#">Specials</a> &#9986; <a href="#">Mailing List</a> &#9986; <a href="#">Club Memberships</a> &#9986; <a href="#">Corporate Accounts</a> &#9986; <a href="#">Contact Us</a></p>
+</div> <!-- end footer -->
+
+</div> <!-- end container -->
+
+</body>
+</html>

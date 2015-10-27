@@ -1,0 +1,65 @@
+﻿/* accountnewstyles.css */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  width: 80%;
+  border-width: 1px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+ 
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+#left {
+  width: 25%;
+  float: left;
+}
+
+#right {
+  margin-left: 30%;
+}
+
+#footer {
+  margin-top: 1em;
+  border-top: solid thin black;
+  margin-bottom: 1em;
+  border-bottom: solid thick black;
+  clear: both;
+  font-weight: bold;
+  text-align: center;
+}
+
+#footer a {
+  padding: 0.25em;
+}
+
+#footer a:hover {
+  color: white;
+  background-color: #184c5a;
+}
+
+ul li  { 
+  background-color: #e1e1b7;
+  line-height: 1.5;
+}
+
+ul li { 
+  font-weight: bold;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}

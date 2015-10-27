@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="bin" path="teams"/>
+	<classpathentry kind="var" path="JRE_LIB" sourcepath="JRE_SRC"/>
+	<classpathentry kind="con" path="C:/Users/Sage/Documents/BattleCode/bin"/>
+	<classpathentry kind="con" path="C:/Users/Sage/Documents/BattleCode/bin/examplefuncsplayer"/>
+	<classpathentry kind="con" path="C:/Users/Sage/Documents/BattleCode/lib"/>
+	<classpathentry kind="con" path="C:/Users/Sage/Documents/BattleCode/teams"/>
+	<classpathentry kind="con" path="C:/Users/Sage/Documents/BattleCode/teams/examplefuncsplayer"/>
+	<classpathentry kind="lib" path="C:/Users/Sage/Documents/BattleCode/lib/battlecode-client.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/Sage/Documents/BattleCode2013/doc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sage/Documents/BattleCode/lib/battlecode-player.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/Sage/Documents/BattleCode2013/doc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sage/Documents/BattleCode/lib/battlecode-server.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/Sage/Documents/BattleCode2013/doc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Sage/Documents/BattleCode/lib/jogl.all.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
